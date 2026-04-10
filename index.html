@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison Noir — Fine Fragrances & Home Scents</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">&#9670;</span>
+        <span class="logo-text">MAISON NOIR</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#bestsellers">Bestsellers</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-tagline">Fine Fragrances & Home Scents</p>
+      <h1 class="hero-title">Where Scent<br>Meets <em>Home</em></h1>
+      <p class="hero-description">
+        Handcrafted fragrances that transform your space into a sanctuary.
+        Every note carefully composed to make your home feel like an embrace.
+      </p>
+      <div class="hero-actions">
+        <a href="#collections" class="btn btn-primary">Explore Collections</a>
+        <a href="#bestsellers" class="btn btn-secondary">Shop Bestsellers</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- Collections Section -->
+  <section class="section collections" id="collections">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Our Collections</p>
+        <h2 class="section-title">Crafted for Every Room</h2>
+        <p class="section-subtitle">Three distinct collections, each designed to evoke a feeling of warmth, comfort, and refined elegance in your home.</p>
+      </div>
+      <div class="collections-grid">
+        <div class="collection-card" data-animate>
+          <div class="collection-image">
+            <div class="collection-placeholder">
+              <svg viewBox="0 0 80 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="20" y="30" width="40" height="70" rx="4" stroke="currentColor" stroke-width="2"/>
+                <rect x="25" y="20" width="30" height="15" rx="3" stroke="currentColor" stroke-width="2"/>
+                <line x1="40" y1="5" x2="40" y2="20" stroke="currentColor" stroke-width="2"/>
+                <circle cx="40" cy="5" r="3" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+          <div class="collection-info">
+            <h3>Eau de Parfum</h3>
+            <p>Personal fragrances with depth and longevity. Woody, amber, and floral compositions for those who appreciate the finer things.</p>
+            <a href="#" class="link-arrow">Discover &#8594;</a>
+          </div>
+        </div>
+        <div class="collection-card" data-animate>
+          <div class="collection-image">
+            <div class="collection-placeholder">
+              <svg viewBox="0 0 80 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="40" cy="90" rx="25" ry="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M15 90V50C15 36 40 20 40 20C40 20 65 36 65 50V90" stroke="currentColor" stroke-width="2"/>
+                <path d="M35 45C35 45 38 35 40 35C42 35 45 45 45 45" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+              </svg>
+            </div>
+          </div>
+          <div class="collection-info">
+            <h3>Candle Collection</h3>
+            <p>Hand-poured soy candles that fill your living space with warmth. From subtle vanilla undertones to rich cedar and sandalwood.</p>
+            <a href="#" class="link-arrow">Discover &#8594;</a>
+          </div>
+        </div>
+        <div class="collection-card" data-animate>
+          <div class="collection-image">
+            <div class="collection-placeholder">
+              <svg viewBox="0 0 80 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="15" y="40" width="50" height="55" rx="4" stroke="currentColor" stroke-width="2"/>
+                <line x1="30" y1="25" x2="30" y2="40" stroke="currentColor" stroke-width="2"/>
+                <line x1="40" y1="20" x2="40" y2="40" stroke="currentColor" stroke-width="2"/>
+                <line x1="50" y1="25" x2="50" y2="40" stroke="currentColor" stroke-width="2"/>
+                <path d="M27 25C27 25 30 15 30 15" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+                <path d="M37 20C37 20 40 10 40 10" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+                <path d="M47 25C47 25 50 15 50 15" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+              </svg>
+            </div>
+          </div>
+          <div class="collection-info">
+            <h3>Room Diffusers</h3>
+            <p>Effortless luxury. Our reed diffusers provide a continuous, gentle fragrance that welcomes you home every single day.</p>
+            <a href="#" class="link-arrow">Discover &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Story Section -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-visual" data-animate>
+        <div class="about-image-placeholder">
+          <div class="about-decorative">
+            <span class="deco-line"></span>
+            <span class="deco-diamond">&#9670;</span>
+            <span class="deco-line"></span>
+          </div>
+          <p class="about-quote">"Fragrance is the voice of the home."</p>
+          <div class="about-decorative">
+            <span class="deco-line"></span>
+            <span class="deco-diamond">&#9670;</span>
+            <span class="deco-line"></span>
+          </div>
+        </div>
+      </div>
+      <div class="about-content" data-animate>
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">Born from a Love<br>of Coming Home</h2>
+        <p>We started Maison Noir with a simple belief: the way your home smells changes the way it feels. That first breath when you walk through the door should feel like a warm embrace.</p>
+        <p>Every fragrance we create is hand-blended in small batches using ethically sourced ingredients. We obsess over every note, every layer, every transition — because we know that scent is the most intimate sense.</p>
+        <p>Our dark, elegant aesthetic reflects what we stand for: understated luxury that never shouts, but always lingers.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Unique Scents</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">12K</span>
+            <span class="stat-label">Happy Homes</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Natural Oils</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bestsellers Section -->
+  <section class="section bestsellers" id="bestsellers">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Most Loved</p>
+        <h2 class="section-title">Bestsellers</h2>
+        <p class="section-subtitle">The scents our customers can't stop coming back to.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card" data-animate>
+          <div class="product-badge">Bestseller</div>
+          <div class="product-image">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 60 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="12" y="25" width="36" height="60" rx="3" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="18" y="15" width="24" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="30" y1="5" x2="30" y2="15" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Amber Soir</h4>
+            <p class="product-notes">Amber &#183; Vanilla &#183; Sandalwood</p>
+            <div class="product-footer">
+              <span class="product-price">$68</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-badge">New</div>
+          <div class="product-image">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 60 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="30" cy="75" rx="18" ry="8" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M12 75V45C12 35 30 22 30 22C30 22 48 35 48 45V75" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M26 40C26 40 28 32 30 32C32 32 34 40 34 40" stroke="currentColor" stroke-width="1.2" opacity="0.6"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Feu de Bois</h4>
+            <p class="product-notes">Cedarwood &#183; Smoke &#183; Musk</p>
+            <div class="product-footer">
+              <span class="product-price">$45</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-image">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 60 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="35" width="40" height="45" rx="3" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="22" y1="20" x2="22" y2="35" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="30" y1="16" x2="30" y2="35" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="38" y1="20" x2="38" y2="35" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Jardin Nuit</h4>
+            <p class="product-notes">Night Jasmine &#183; Fig &#183; Black Tea</p>
+            <div class="product-footer">
+              <span class="product-price">$52</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-image">
+            <div class="product-placeholder">
+              <svg viewBox="0 0 60 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="12" y="25" width="36" height="60" rx="3" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="18" y="15" width="24" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="30" y1="5" x2="30" y2="15" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Velours Orange</h4>
+            <p class="product-notes">Blood Orange &#183; Neroli &#183; Oud</p>
+            <div class="product-footer">
+              <span class="product-price">$72</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features / Why Us Banner -->
+  <section class="section features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature" data-animate>
+          <div class="feature-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 5L23 15H33L25 21L28 31L20 25L12 31L15 21L7 15H17L20 5Z" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h4>Small Batch</h4>
+          <p>Every fragrance hand-blended in batches of 50 or fewer for exceptional quality.</p>
+        </div>
+        <div class="feature" data-animate>
+          <div class="feature-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M14 20C14 20 17 26 20 26C23 26 26 20 26 20C26 20 23 14 20 14C17 14 14 20 14 20Z" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h4>100% Natural</h4>
+          <p>Pure essential oils and natural waxes. No synthetics, no shortcuts.</p>
+        </div>
+        <div class="feature" data-animate>
+          <div class="feature-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 30L20 10L32 30H8Z" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="20" y1="18" x2="20" y2="24" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="27" r="1" fill="currentColor"/>
+            </svg>
+          </div>
+          <h4>Eco-Conscious</h4>
+          <p>Recyclable packaging, carbon-neutral shipping, and refill programs for all products.</p>
+        </div>
+        <div class="feature" data-animate>
+          <div class="feature-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8C15 8 8 13 8 20C8 30 20 35 20 35C20 35 32 30 32 20C32 13 25 8 20 8Z" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h4>Made with Love</h4>
+          <p>Founded by fragrance enthusiasts who believe your home should smell as good as it looks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Kind Words</p>
+        <h2 class="section-title">What Our Customers Say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Amber Soir completely transformed my living room. Guests always ask what that incredible scent is. It genuinely feels like coming home."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">S</div>
+            <div>
+              <p class="author-name">Sarah M.</p>
+              <p class="author-detail">Amber Soir — Eau de Parfum</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"The candle collection is unreal. The throw is incredible and they burn so evenly. Feu de Bois makes my apartment feel like a cozy cabin."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">J</div>
+            <div>
+              <p class="author-name">James T.</p>
+              <p class="author-detail">Feu de Bois — Candle</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"I've tried dozens of brands and nothing compares. The quality is exceptional and the dark, minimal packaging is absolutely gorgeous."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <p class="author-name">Amira K.</p>
+              <p class="author-detail">Velours Orange — Diffuser</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="section newsletter">
+    <div class="container newsletter-container">
+      <div class="newsletter-content" data-animate>
+        <h2 class="section-title">Stay in the Know</h2>
+        <p>Be the first to hear about new scents, exclusive releases, and seasonal collections. Plus, get 10% off your first order.</p>
+        <form class="newsletter-form" onsubmit="handleNewsletterSubmit(event)">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p class="newsletter-disclaimer">No spam, ever. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info" data-animate>
+        <p class="section-label">Get in Touch</p>
+        <h2 class="section-title">We'd Love to<br>Hear from You</h2>
+        <p>Whether you have a question about our products, need help choosing the right scent, or want to explore wholesale — we're here.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">&#9993;</span>
+            <span>hello@maisonnoir.com</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#9742;</span>
+            <span>+1 (555) 012-3456</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#9673;</span>
+            <span>Mon — Fri, 9am to 6pm EST</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrapper" data-animate>
+        <form class="contact-form" onsubmit="handleContactSubmit(event)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-icon">&#9670;</span>
+            <span class="logo-text">MAISON NOIR</span>
+          </a>
+          <p>Handcrafted fragrances that make your home feel like a sanctuary.</p>
+        </div>
+        <div class="footer-links">
+          <h5>Shop</h5>
+          <ul>
+            <li><a href="#">Eau de Parfum</a></li>
+            <li><a href="#">Candles</a></li>
+            <li><a href="#">Diffusers</a></li>
+            <li><a href="#">Gift Sets</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Maison Noir. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">&#9679;</a>
+          <a href="#" aria-label="Pinterest">&#9679;</a>
+          <a href="#" aria-label="Facebook">&#9679;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
